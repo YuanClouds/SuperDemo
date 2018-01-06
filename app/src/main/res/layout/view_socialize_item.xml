@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_share_wechat_btn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/share_btn_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_wechat"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/share_btn_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_btn_icon"
+        android:layout_marginTop="5dp"
+        android:text="微信好友"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

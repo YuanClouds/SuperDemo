@@ -1,0 +1,14 @@
+// 通用config
+
+ext {
+//    android = [
+//
+//    ]
+//
+//    dependencies = [
+//            "appcompat-v7": "com.android.support:appcompat-v7:23.2.1",
+//            "design"      : "com.android.support:design:23.2.1"
+//    ]
+
+    compileSdkVersion: 23
+}

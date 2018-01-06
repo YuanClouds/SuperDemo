@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SuperDemo</string>
+
+    <!-- 友盟分享 -->
+    <string name="share_popwindow_title">分享至</string>
+
+    <!-- index 首页 -->
+    <string name="item_index_title">title</string>
+    <string name="item_index_describe">describe</string>
+    <string name="item_index_time">time</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

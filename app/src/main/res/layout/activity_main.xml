@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yuan.superdemo.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+
+    <!--<Button-->
+        <!--android:id="@+id/tabToolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="tab_toolbar"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/rx_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="RX"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/upload_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="upload"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/download_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="download"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/databind_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="databind"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/share_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="share"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/listview_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="listview"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/database_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="greendao"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/routers_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="routers"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/alarm_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="routers"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/auto_text_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="auto_textview"-->
+        <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/index_list_btn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="index_list"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/index_lambda_btn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="lambda"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

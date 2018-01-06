@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上下轮播:"
+            android:padding="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <com.yuan.superdemo.widgets.VerticalAnimTextView
+                android:id="@+id/auto_text"
+                android:layout_width="45dp"
+                android:background="@color/colorPrimary"
+                app:textSize="12sp"
+                app:textColor="@color/colorAccent"
+                android:layout_gravity="center_vertical"
+                android:layout_height="45dp"></com.yuan.superdemo.widgets.VerticalAnimTextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:text="启动"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ccc"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可控制的跑马灯"
+            android:padding="5dp"
+            />
+
+        <com.yuan.superdemo.widgets.HorizalAnimTextView
+            android:id="@+id/horizal_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="这是公告喔"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:text="启动跑马灯"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ccc"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公告控件"
+            android:padding="5dp"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动"
+            />
+
+        <com.yuan.superdemo.widgets.AutoMessageTextView
+            android:id="@+id/autoadv_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:autoTitleTextSize="18sp"
+            app:autoTitleTextColor="#ff661b"
+            app:autoContentTextSize="16sp"
+            app:autoContentTextColor="#222222"
+            app:autoImage="@drawable/icon_service"
+            android:background="#ffffff"
+            >
+
+        </com.yuan.superdemo.widgets.AutoMessageTextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ccc"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公告控件 xml 测试"
+            android:padding="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动"
+            android:id="@+id/button3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <com.yuan.superdemo.widgets.VerticalAnimTextView
+                android:id="@+id/vl_tv_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:textSize="12sp"
+                app:textColor="@color/colorAccent"
+                app:text="公告"
+                />
+
+            <com.yuan.superdemo.widgets.VerticalAnimTextView
+                android:id="@+id/vl_tv_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textSize="12sp"
+                app:textColor="@color/colorAccent"
+                android:background="@color/colorPrimary"
+                app:tv_gravity="left"
+                app:text="我是公告栏呢"
+                app:scrollable="true"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

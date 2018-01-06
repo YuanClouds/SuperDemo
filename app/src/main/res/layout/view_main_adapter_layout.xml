@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="title"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:background="@color/colorAccent"
+        />
+    <com.yuan.superdemo.widgets.HorizontalListView
+        android:id="@+id/hori_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp" ></com.yuan.superdemo.widgets.HorizontalListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="bottom"
+        />
+
+</LinearLayout>
